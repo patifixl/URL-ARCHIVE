@@ -103,9 +103,48 @@ body {
   z-index: 20;
 }
 
+p1 {
+  margin-bottom: 0.2em;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 0;
+  font-size: 0.85em;
+}
+
 .column.brown.index .index {
   grid-row: 1;
   grid-column: 1 / span 1;
+}
+
+.lightgray {
+  background-color: lightgray;
+  margin-bottom: 0.2em;
+}
+
+.pink {
+  background-color: #ffe0ce;
+  margin-bottom: 0.2em;
+}
+
+.green {
+  background-color: #ddfdee;
+  margin-bottom: 0.2em;
+}
+
+.blue {
+  background-color: #d3e9fe;
+  margin-bottom: 0.2em;
+}
+
+.yellow2 {
+  background-color: rgb(255, 250, 149);
+}
+
+.purple {
+  background-color: #d4d3fe;
+}
+
+.pom {
+  background-color: #ffa861;
 }
 
 .jeden {
@@ -1059,14 +1098,14 @@ a:active {
 }
 
 .grid-item:nth-child(31) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 3 / span 2;
   grid-column: 2 / span 1;
 }
 .grid-item:nth-child(32) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 3 / span 2;
@@ -1074,7 +1113,7 @@ a:active {
 }
 
 .grid-item:nth-child(33) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 2 / span 1;
@@ -1082,7 +1121,7 @@ a:active {
 }
 
 .grid-item:nth-child(34) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 2 / span 2;
@@ -1091,7 +1130,7 @@ a:active {
 
 .grid-item:nth-child(35) {
   align-self: flex-start;
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 4 / span 1;
@@ -1099,7 +1138,7 @@ a:active {
 }
 
 .grid-item:nth-child(36) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 3 / span 2;
@@ -1108,7 +1147,7 @@ a:active {
 
 .grid-item:nth-child(37) {
   align-self: flex-start;
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 2 / span 2;
@@ -1117,7 +1156,7 @@ a:active {
 
 .grid-item:nth-child(38) {
   align-self: flex-start;
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 5 / span 1;
@@ -1126,7 +1165,7 @@ a:active {
 
 .grid-item:nth-child(39) {
   align-self: flex-end;
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 4 / span 1;
@@ -1134,7 +1173,7 @@ a:active {
 }
 
 .grid-item:nth-child(40) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 3 / span 1;
@@ -1142,7 +1181,7 @@ a:active {
 }
 
 .grid-item:nth-child(41) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 2 / span 2;
@@ -1150,7 +1189,7 @@ a:active {
 }
 
 .grid-item:nth-child(42) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 3 / span 1;
@@ -1158,7 +1197,7 @@ a:active {
 }
 
 .grid-item:nth-child(43) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 3 / span 1;
@@ -1166,7 +1205,7 @@ a:active {
 }
 
 .grid-item:nth-child(44) {
-  background-color: rgb(249, 255, 142);
+  background-color: #ddfdee;
   border: 1px solid black;
   padding: 10px;
   grid-row: 2 / span 2;
@@ -1317,6 +1356,83 @@ a:active {
   grid-column: 16 / span 3;
 }
 
+.grid-item-three:nth-child(19) {
+  align-self: flex-start;
+  background-color: #d4d3fe;
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.grid-item-three:nth-child(20) {
+  background-color: #d4d3fe;
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 5 / span 1;
+  grid-column: 2 / span 2;
+}
+
+.grid-item-three:nth-child(21) {
+  align-self: flex-start;
+  background-color: #d4d3fe;
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 7 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.grid-item-three:nth-child(22) {
+  align-self: flex-end;
+  background-color: #d4d3fe;
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 6 / span 1;
+  grid-column: 4 / span 2;
+}
+
+.grid-item-three:nth-child(23) {
+  background-color: #d4d3fe;
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 5 / span 1;
+  grid-column: 6 / span 1;
+}
+
+.grid-item-three:nth-child(24) {
+  background-color: #ffa861;
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.grid-item-three:nth-child(25) {
+  background-color: #ffa861;
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 6 / span 1;
+  grid-column: 7 / span 1;
+}
+
+.grid-item-three:nth-child(26) {
+  align-self: flex-start;
+  background-color: #ffa861;
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 1 / span 1;
+  grid-column: 13 / span 1;
+}
+
+.grid-item-three:nth-child(27) {
+  align-self: flex-start;
+  background-color: #ffa861;
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 7 / span 1;
+  grid-column: 11 / span 1;
+}
+
 .grid-item-four:nth-child(3) {
   background-color: lightgray;
   border: 1px solid black;
@@ -1434,8 +1550,8 @@ a:active {
   background-color: #d3e9fe;
   border: 1px solid black;
   padding: 10px;
-  grid-row: 2 / span 1;
-  grid-column: 5 / span 1;
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
 }
 
 .grid-item-five:nth-child(9) {
@@ -1443,7 +1559,7 @@ a:active {
   border: 1px solid black;
   padding: 10px;
   grid-row: 3 / span 1;
-  grid-column: 6 / span 1;
+  grid-column: 3 / span 1;
 }
 
 .grid-item-five:nth-child(10) {
@@ -1451,7 +1567,7 @@ a:active {
   border: 1px solid black;
   padding: 10px;
   grid-row: 4 / span 1;
-  grid-column: 6 / span 1;
+  grid-column: 3 / span 1;
 }
 
 .grid-item-five:nth-child(11) {
@@ -1459,7 +1575,7 @@ a:active {
   border: 1px solid black;
   padding: 10px;
   grid-row: 5 / span 1;
-  grid-column: 5 / span 1;
+  grid-column: 4 / span 1;
 }
 
 .grid-item-five:nth-child(12) {
@@ -1469,6 +1585,22 @@ a:active {
   padding: 10px;
   grid-row: 6 / span 1;
   grid-column: 7 / span 1;
+}
+
+.grid-item-five:nth-child(13) {
+  background-color: rgb(255, 250, 149);
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 2 / span 2;
+  grid-column: 6 / span 2;
+}
+
+.grid-item-five:nth-child(14) {
+  background-color: rgb(255, 250, 149);
+  border: 1px solid black;
+  padding: 10px;
+  grid-row: 4 / span 1;
+  grid-column: 6 / span 1;
 }
 
 .tresc {
