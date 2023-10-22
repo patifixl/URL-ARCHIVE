@@ -59,7 +59,7 @@ body {
 }
 
 .column:nth-child(7) {
-  flex: 0 0 290vw;
+  flex: 0 0 6vw;
 }
 
 /* .column:nth-child(n + 4) {
