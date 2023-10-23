@@ -25,7 +25,7 @@ function toggleColumna() {
     gridItemsOne.forEach((item) => (item.style.display = "none")); // Hide all grid-items
     arrow.textContent = ">"; // Change text to '>'
   } else {
-    fourthChild.style.flex = "0 0 310vw"; // Open the column
+    fourthChild.style.flex = "0 0 194vw"; // Open the column
     gridItemsOne.forEach((item) => (item.style.display = "block")); // Show all grid-items
     arrow.textContent = "<"; // Change text to '<'
   }
@@ -39,7 +39,7 @@ function toggleColumn() {
     gridItems.forEach((item) => (item.style.display = "none")); // Hide all grid-items
     strzalka.textContent = ">"; // Change text to '>'
   } else {
-    fifthChild.style.flex = "0 0 310vw"; // Open the column
+    fifthChild.style.flex = "0 0 295vw"; // Open the column
     gridItems.forEach((item) => (item.style.display = "block")); // Show all grid-items
     strzalka.textContent = "<"; // Change text to '<'
   }
@@ -52,7 +52,7 @@ function toggleColumnc() {
     gridItemsThree.forEach((item) => (item.style.display = "none")); // Hide all grid-items
     strzaleczka.textContent = ">"; // Change text to '>'
   } else {
-    sixthChild.style.flex = "0 0 310vw"; // Open the column
+    sixthChild.style.flex = "0 0 142vw"; // Open the column
     gridItemsThree.forEach((item) => (item.style.display = "block")); // Show all grid-items
     strzaleczka.textContent = "<"; // Change text to '<'
   }
@@ -65,7 +65,7 @@ function toggleColumnd() {
     gridItemsFour.forEach((item) => (item.style.display = "none")); // Hide all grid-items
     pfeil.textContent = ">"; // Change text to '>'
   } else {
-    seventhChild.style.flex = "0 0 310vw"; // Open the column
+    seventhChild.style.flex = "0 0 70vw"; // Open the column
     gridItemsFour.forEach((item) => (item.style.display = "block")); // Show all grid-items
     pfeil.textContent = "<"; // Change text to '<'
   }
@@ -78,7 +78,7 @@ function toggleColumne() {
     gridItemsFive.forEach((item) => (item.style.display = "none")); // Hide all grid-items
     pfeilchen.textContent = ">"; // Change text to '>'
   } else {
-    eighthChild.style.flex = "0 0 310vw"; // Open the column
+    eighthChild.style.flex = "0 0 57vw"; // Open the column
     gridItemsFive.forEach((item) => (item.style.display = "block")); // Show all grid-items
     pfeilchen.textContent = "<"; // Change text to '<'
   }
